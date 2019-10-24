@@ -35,7 +35,7 @@ ENV RECOMMENDER_ALGORITHM SlopeOne
 ENV PROXY_NAME unset
 ENV PROXY_PORT unset
 ENV TOMCAT_HEAP_MEM_PERCENTAGE 50
-ENV LOG_TO_FILE false
+ENV LOG_TO_FILE true
 ENV RABBITMQ_HOST unset
 
 # Setting secure random number generation to urandom. This increases the startup speed.
