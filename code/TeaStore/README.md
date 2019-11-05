@@ -11,3 +11,8 @@ There are a bunch of handy setup scripts located in `/scripts`. These should be 
 
 ### Run as an monolithic application
 The application can be run using one server to simulate a monolithic application.
+
+### JMeter
+JMeter is our load testing tool. It can be installed using HomeBrew.
+* `brew install jmeter`
+* Start JMeter `open /usr/local/bin/jmeter`
